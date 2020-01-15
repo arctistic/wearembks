@@ -17,10 +17,10 @@
             </span>
         </p>
         <p>
-            <span><i class="fab fa-facebook-f"></i></span>
-            <span><i class="fab fa-youtube"></i></span>
-            <span><i class="fab fa-instagram"></i></span>
-            <span><i class="fas fa-envelope"></i> mbkstrust@gmail.com</span>
+            <a href=""><span><i class="fas fa-envelope"></i> mbkstrust@gmail.com</span></a>
+            <a href=""><span><i class="fab fa-facebook-f"></i></span></a>
+            <a href=""><span><i class="fab fa-youtube"></i></span></a>
+            <a href=""><span><i class="fab fa-instagram"></i></span></a>
         </p>
     </div>
 
@@ -46,34 +46,53 @@
         <div>About</div>
     </nav>
 
-    <div id="nav-dropdown">
+    <div class="nav-dropdown">
+        <div class="dropdown-sandwich">
+            <i class="fas fa-bars"></i>
+        </div>
         <ul>
-           <li><a href="">Projects<i style="position: relative;left: 5px;top:1px;" class="fas fa-chevron-down"></i></a>
-            
-            <div class="nav-sub-dropdown">
-                <ul>
-                    <li><a href="">MEFAI</a></li>
-                    <li><a href="">CHILD</a></li>
-                    <li><a href="">Do-Po</a></li>
-                    <li><a href="">Yuwauday</a></li>
-                    <li><a href="">Phoenix</a></li>
+           <li class="side-sub-dropdown-project">Project<i style="position: relative;left: 5px;top:1px;" class="fas fa-chevron-down"></i>
+                <div class="nav-sub-dropdown">
+                    <ul>
+                        <li><a href="">MEFAI</a></li>
+                        <li><a href="">CHILD</a></li>
+                        <li><a href="">Do-Po</a></li>
+                        <li><a href="">Yuwauday</a></li>
+                        <li><a href="">Phoenix</a></li>
 
-                </ul>
-            </div>
-
+                    </ul>
+                </div>
             </li>
 
-           <li><a href="">Events</a></li>
+            <li><a href="">Events</a></li>
            
-           <li><a href="">Trust</a></li>
+            <li><a href="">Trust</a></li>
            
-           <li><a href="">Chapter<i style="position: relative;left: 5px;top:1px;" class="fas fa-chevron-down"></i></a></li>
+            <li class="side-sub-dropdown-chapters">Chapter<i style="position: relative;left: 5px;top:1px;" class="fas fa-chevron-down"></i>
+                <div class="nav-sub-dropdown">
+                    <ul>
+                        <li><a href="">Kurseong</a></li>
+                        <li><a href="">Kolkatta</a></li>
+                    </ul>
+                </div>
+            
+            </li>
            
-           <li><a href="">Contact</a></li>
+            <li><a href="">Contact</a></li>
            
-           <li><a href="">About</a></li>
+            <li><a href="">About</a></li>
         </ul>
     </div>
+
+    <div style="height: 100vh;"></div>
+
+
+
+    <script
+			  src="https://code.jquery.com/jquery-3.4.1.js"
+			  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+              crossorigin="anonymous"></script>
+    <script src="nav-script.js"></script>
 
 </body>
 </html>
