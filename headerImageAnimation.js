@@ -11,8 +11,8 @@ $(document).ready( () => {
     $("#header-image").on({
         mouseover: function() {
             clearInterval(interval);
-            $(".prev").toggleClass("show-arrows");
-            $(".next").toggleClass("show-arrows");
+            $(".prev").addClass("show-arrows");
+            $(".next").addClass("show-arrows");
         },
         mouseout: function() {
             interval = setInterval(() => {
@@ -21,8 +21,8 @@ $(document).ready( () => {
                 });
                 curImg = (curImg + 1) % (images.length);
             }, 2000);
-            $(".prev").toggleClass("show-arrows");
-            $(".next").toggleClass("show-arrows");
+            $(".prev").removeClass("show-arrows");
+            $(".next").removeClass("show-arrows");
         }
     });
 
