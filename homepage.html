@@ -5,86 +5,204 @@
     <meta name="viewport" content="width=device-width">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="navstyle.css">
+    <link rel="stylesheet" href="headerimage.css">
+    <link rel="stylesheet" href="bodyContainer.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
     <script src="https://kit.fontawesome.com/fa8dfb2200.js" crossorigin="anonymous"></script>
     
     <title>Home</title>
 </head>
 <body>
-    <div id="nav-head">
-        <p id="nav-head-title">
-            <span>
-                Bringing back the lost essence of Darjeeling Hills | Call Us
-            </span>
-        </p>
-        <p>
-            <a href=""><span><i class="fas fa-envelope"></i> mbkstrust@gmail.com</span></a>
-            <a href=""><span><i class="fab fa-facebook-f"></i></span></a>
-            <a href=""><span><i class="fab fa-youtube"></i></span></a>
-            <a href=""><span><i class="fab fa-instagram"></i></span></a>
-        </p>
-    </div>
+    <div id="navigation">
+        <!-- NAV HEAD - ORANGE BAND -->
+        <div id="nav-head">
+            <p id="nav-head-title">
+                <span>
+                    Bringing back the lost essence of Darjeeling Hills | Call Us
+                </span>
+            </p>
+            <p>
+                <a href=""><span><i class="fas fa-envelope"></i> mbkstrust@gmail.com</span></a>
+                <a href=""><span><i class="fab fa-facebook-f"></i></span></a>
+                <a href=""><span><i class="fab fa-youtube"></i></span></a>
+                <a href=""><span><i class="fab fa-instagram"></i></span></a>
+            </p>
+        </div>
 
-    <nav>
-        <div>Project <i style="position: relative;left: 5px;top:1px;" class="fas fa-chevron-down"></i>
+        <!-- NAV BAR - WIDE SCREEN (PC) -->
+        <nav>
+            <div>Project <i style="position: relative;left: 5px;top:1px;" class="fas fa-chevron-down"></i>
+                <ul>
+                    <li><a href="">MEFAI</a></li>
+                    <li><a href="">CHILD</a></li>
+                    <li><a href="">Do-Po</a></li>
+                    <li><a href="">Yuwa Uday</a></li>
+                    <li><a href="">Phoenix</a></li>
+                </ul>
+            </div>
+            <div>Events</div>
+            <div>Trust</div>
+            <div>Chapter <i style="position: relative;left: 5px;top:1px;" class="fas fa-chevron-down"></i>
+                <ul>
+                    <li><a href="">Kurseong</a></li>
+                    <li><a href="">Kolkatta</a></li>
+                </ul>
+            </div>
+            <div>Contact</div>
+            <div>About</div>
+        </nav>
+
+        <!-- NAV BAR - SMALL SCREEN (MOBILE) -->
+        <div class="nav-dropdown">
+            <div class="dropdown-sandwich">
+                <i class="fas fa-bars"></i>
+            </div>
             <ul>
-                <li><a href="">MEFAI</a></li>
-                <li><a href="">CHILD</a></li>
-                <li><a href="">Do-Po</a></li>
-                <li><a href="">Yuwauday</a></li>
-                <li><a href="">Phoenix</a></li>
-            </ul>
-        </div>
-        <div>Events</div>
-        <div>Trust</div>
-        <div>Chapter <i style="position: relative;left: 5px;top:1px;" class="fas fa-chevron-down"></i>
-            <ul>
-                <li><a href="">Kurseong</a></li>
-                <li><a href="">Kolkatta</a></li>
-            </ul>
-        </div>
-        <div>Contact</div>
-        <div>About</div>
-    </nav>
+            <li class="side-sub-dropdown-project">Project<i style="position: relative;left: 5px;top:1px;" class="fas fa-chevron-down"></i>
+                    <div class="nav-sub-dropdown">
+                        <ul>
+                            <li><a href="">MEFAI</a></li>
+                            <li><a href="">CHILD</a></li>
+                            <li><a href="">Do-Po</a></li>
+                            <li><a href="">Yuwa Uday</a></li>
+                            <li><a href="">Phoenix</a></li>
 
-    <div class="nav-dropdown">
-        <div class="dropdown-sandwich">
-            <i class="fas fa-bars"></i>
-        </div>
-        <ul>
-           <li class="side-sub-dropdown-project">Project<i style="position: relative;left: 5px;top:1px;" class="fas fa-chevron-down"></i>
-                <div class="nav-sub-dropdown">
-                    <ul>
-                        <li><a href="">MEFAI</a></li>
-                        <li><a href="">CHILD</a></li>
-                        <li><a href="">Do-Po</a></li>
-                        <li><a href="">Yuwauday</a></li>
-                        <li><a href="">Phoenix</a></li>
+                        </ul>
+                    </div>
+                </li>
 
-                    </ul>
-                </div>
-            </li>
-
-            <li><a href="">Events</a></li>
-           
-            <li><a href="">Trust</a></li>
-           
-            <li class="side-sub-dropdown-chapters">Chapter<i style="position: relative;left: 5px;top:1px;" class="fas fa-chevron-down"></i>
-                <div class="nav-sub-dropdown">
-                    <ul>
-                        <li><a href="">Kurseong</a></li>
-                        <li><a href="">Kolkatta</a></li>
-                    </ul>
-                </div>
+                <li><a href="">Events</a></li>
             
-            </li>
-           
-            <li><a href="">Contact</a></li>
-           
-            <li><a href="">About</a></li>
-        </ul>
+                <li><a href="">Trust</a></li>
+            
+                <li class="side-sub-dropdown-chapters">Chapter<i style="position: relative;left: 5px;top:1px;" class="fas fa-chevron-down"></i>
+                    <div class="nav-sub-dropdown">
+                        <ul>
+                            <li><a href="">Kurseong</a></li>
+                            <li><a href="">Kolkatta</a></li>
+                        </ul>
+                    </div>
+                
+                </li>
+            
+                <li><a href="">Contact</a></li>
+            
+                <li><a href="">About</a></li>
+            </ul>
+        </div>
     </div>
 
-    <div style="height: 100vh;"></div>
+    <!-- IMAGE SLIDER -->
+    <header>
+        <div id="header-image-container">
+            <div id="header-image" class="">
+                <div class="prev"><i class="fas fa-chevron-left"></i></div>
+                <div class="next"><i class="fas fa-chevron-right"></i></div>
+            </div>
+        </div>
+        
+    </header>
+
+    <!-- MAIN CONTENT ON LEFT -->
+    
+    <div id="info-header">
+        <!-- WELCOME TO MBKS -->
+        <div class="card">
+            <h2>Welcome to Mukh Bandh Kaam Suru</h2>
+            <p>
+                Mukh Bandh Kaam Suru is a Public Charitable trust registered under the Indian Trust Act 1960 with the registration number IV-0401-00024/2017, in Darjeeling, West Bengal, India. MBKS is a Public Charitable Trust dedicated towards bringing back the lost essence of Darjeeling. We are involved in Education, Children Healthcare, Youth Empowerment, Poverty Alleviation, and Sanitation and Cleanliness sector.
+            </p>
+        </div>
+
+        <!-- MBKS LOGO FOR PC-->
+        <div id="mbks-logo" class="card">
+            <img src="header-images/final-logo.png" alt="">
+        </div>
+
+        <!-- VISION MISSION COREVALUES -->
+        <div class="accordian">
+            <h2 class="panel-head">Our Vision<i class="fas fa-angle-double-down" style="font-size: 15px; position: relative; top: -2px; right:5px;"></i></h2>
+            <div class="panel-container">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+            </div>
+            <h2 class="panel-head">Mission<i class="fas fa-angle-double-down" style="font-size: 15px; position: relative; top: -2px; right:5px;"></i></h2>
+            <div class="panel-container">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+            </div>
+            <h2 class="panel-head">Core Values<i class="fas fa-angle-double-down" style="font-size: 15px; position: relative; top: -2px; right:5px;"></i></h2>
+            <div class="panel-container">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div id="donate-container">
+        <h2>Help us, help change lives</h2>
+        <button>DONATE</button>
+    </div>
+
+    <!-- FIRST MBKS VIDEO -->
+    <div class="video-card">
+        <embed width="100%" src="https://www.youtube.com/v/gDPatG5cUIw">
+    </div>
+
+    <!-- ANNOUNCEMENT AND STORIES TAB -->
+    <div id="announcements-stories">
+        <div id="announcements" class="card">
+            <h2>Announcements</h2><br>
+            <h3>Lorem ipsum dolor sit amet</h3>
+            <h3>Interdum et malesuada fames ac ante ipsum primis in faucibus.</h3>
+        </div>
+        <div id="stories" class="card">
+            <h2>Recent Stories</h2><br>
+            <h3>This is a story of a man. Yay!</h3>
+        </div>
+        
+    </div>
+
+    <!-- REST TWO VIDEOS -->
+    <div class="video-card">
+        <div class="video-card">
+            <embed width="50%" src="https://www.youtube.com/v/x0Yv5yhsZpo">
+            <embed width="50%" src="https://www.youtube.com/v/6oaRlriyob8">
+        </div>
+    </div>
+
+    <!-- CONTACT SECTION -->
+    <div id="contact">
+        <p class="contact-heading">
+				<span>
+					<i class="fas fa-id-card"></i>
+				</span>
+				<span>Contact</span>
+		</p>
+		<div id="contact-container">
+			<div class="contact-sides">
+					<input type="text" name="name" placeholder="Your Name">
+					<input type="text" name="name" placeholder="Your Email">
+					<input type="text-center" name="name" placeholder="Message">
+					<button type="sumbit">SEND MESSAGE</button>
+			</div>
+			<div class="contact-sides">
+				<p><span class="get-bold">Get in touch</span></p>
+				<p>
+					Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+				</p>
+				<p><span class="get-bold">Address</span></p>
+				<p><i class="fas fa-compass"></i>Bangalore, Karnataka</p>
+				<p><i class="fas fa-mobile-alt"></i> 9679749229 | 8088409155</p>
+				<p><i class="far fa-envelope"></i> chettri.akhilratna@gmail.com</p>
+			</div>
+		</div>
+	</div>
+    
+
 
 
 
@@ -93,6 +211,8 @@
 			  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
               crossorigin="anonymous"></script>
     <script src="nav-script.js"></script>
+    <script src="headerImageAnimation.js"></script>
+    <script src="bodyContainer.js"></script>
 
 </body>
 </html>

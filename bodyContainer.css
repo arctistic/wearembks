@@ -1,0 +1,265 @@
+:root{
+    --grey-bg: rgba(243, 240, 240, 0.816);
+}
+body{
+    background-color: var(--grey-bg);
+}
+#body-container{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+#main-container{
+    width: 70%;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+#aside-container{
+    width: 25%;
+    border: 1px solid black;
+}
+
+/* INFO HEADER */
+#info-header{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+/* NORMAL CARD */
+.card{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 20px;
+    transition: all 1s ease-in-out;
+    border: 1px solid lightgray;
+    margin: 0px 0px;
+    background-color: white;
+}
+.card h2{
+    border-left: 5px solid orange;
+    padding-left: 10px;
+    cursor: pointer;
+}
+.card h3{
+    border-left: 2px solid orange;
+    padding-left: 10px;
+    cursor: pointer;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+.card h3:hover{
+    transition: all 0.2s ease-in-out;
+    border-left: 4px solid orange;
+}
+.card p{
+    margin: 10px 0px;
+}
+
+/* MBKS LOGO */
+#mbks-logo{
+    align-items: center;
+    min-width: 33%;
+}
+#mbks-logo > img{
+    width: 100%;
+    max-width: 200px;
+}
+
+
+
+/* FOR THE ACCORDIAN*/
+.accordian{
+    box-sizing: border-box;
+    width: 100%;
+    padding: 20px;
+    transition: all 1s ease-in-out;
+    border: 1px solid lightgray;
+    margin: 0px 0px;
+    background-color: white;
+}
+.accordian > h2{
+    border-left: 5px solid orange;
+    padding-left: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.panel-container{
+    background-color: var(--grey-bg);
+    height: 0px;
+    overflow: hidden;
+    transition: all 0.3s ease-in-out;
+}
+.panel-container > p{
+    margin: 15px;
+}
+.panel-head i{
+    transition: all 0.3s ease-in-out;
+}
+.acc-arrow-rotate{
+    transition: all 0.3s ease-in-out;
+    transform: rotate(180deg);
+}
+
+/* DONATE SECTION */
+#donate-container{
+    border: 1px solid var(--grey-bg);
+    margin-top: 10px;
+    height: 500px;
+    background-image: url("header-images/donate-bg.jpg");
+    background-position: 0% 60%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0px 0px 800px 200px inset;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#donate-container > h2{
+    margin: 20px;
+    color: rgb(255, 166, 0);
+    text-shadow: 0px 5px 15px black;
+    font-size: 40px;
+}
+#donate-container > button{
+    background-color: transparent;
+    color: white;
+    border: 2px solid rgb(255, 166, 0);
+    padding: 9px 49px;
+}
+#donate-container > button:hover{
+    background-color: rgba(0, 0, 0, 0.34);
+    padding: 10px 50px;
+}
+
+/* ANNOUNCEMENT AND UPDATES SECTION USES '.cards' */
+/* This is the rules for its container */
+#announcements-stories{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* SECTION FOR VIDEOS */
+.video-card{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    box-sizing: border-box;
+    width: 100%;
+    transition: all 1s ease-in-out;
+    border: 1px solid lightgray;
+    margin: 0px 0px;
+    background-color: white;
+}
+.video-card embed{
+    height: 500px;
+    box-shadow: 0px 0px 800px 200px inset;
+}
+
+
+/* CONTACT SECTION */
+#contact{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(45deg,orange,red);
+}
+.contact-heading{
+    padding: 20px;
+    font-size: 25px;
+    color: white;
+}
+.contact-heading > span{
+    margin: 0px 5px;
+}
+#contact-container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.contact-sides{
+    color: rgba(255, 255, 255, 0.823);
+    box-sizing: border-box;
+    padding: 30px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contact-sides input,button{
+    margin: 20px 0px;
+}
+.contact-sides > input{
+    padding: 2px;
+    outline: transparent;
+    color: white;
+    border: none;
+    width: 250px;
+    background-color: transparent;
+    border-bottom: 1px solid white;
+}
+.contact-sides > input::placeholder{
+    color: rgba(255, 255, 255, 0.537);
+}
+.contact-sides > button{
+    background-color: transparent;
+    border: 1px solid white;
+    padding: 10px 30px;
+    color: white;
+}
+.contact-sides p{
+
+}
+.get-bold{
+    font-weight: bolder;
+}
+
+/* RESPONSIVENESS */
+@media screen and (max-width:750px){
+
+    /* Three card at the beginning */
+    #info-header{
+        flex-direction: column;
+        align-items: center;
+        margin: 0px;
+    }
+    .card{
+        width: 100%;
+    }
+    .accordian{
+        width: 100%;
+    }
+    #donate-container{
+        height: 40vh;
+        box-shadow: 0px 0px 1000px 100px inset;
+    }
+    #donate-container > h2{
+        font-size: 25px;
+    }
+    #donate-container > button{
+        background-color: rgba(0, 0, 0, 0.34);
+        color: white;
+        border: 2px solid rgb(255, 166, 0);
+        padding: 9px 35px;
+    }
+    #announcements-stories{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .video-card embed{
+        height: 250px;
+    }
+
+}
