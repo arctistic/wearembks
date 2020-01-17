@@ -97,6 +97,7 @@ nav > div:hover > ul{
 
 /* NAV DROP-DOWN ON SMALL SCREEN*/
 .dropdown-sandwich{
+    font-size: 17px;
     background-color: var(--primary-color);
     color: white;
     position: fixed;
@@ -105,8 +106,8 @@ nav > div:hover > ul{
     display: none;
     justify-content: center;
     align-items: center;
-    height: 30px;
-    width: 30px;
+    height: 35px;
+    width: 35px;
     border-radius: 50%;
     transition: all 0.3s ease-in-out;
     z-index: 1;
@@ -134,15 +135,15 @@ nav > div:hover > ul{
     color: black;
 }
 .nav-dropdown > ul > li{
-    font-size: 15px;
-    margin: 10px 50px;
+    font-size: 20px;
+    margin: 10px 0px 10px 70px;
     padding-left: 10px;
 }
 .nav-dropdown > ul > li:hover{
     border-left: 2px solid black;
 }
 .side-sub-dropdown-project{
-    height: 20px;
+    height: 25px;
     overflow: hidden;
     width: 100%;
 }
@@ -153,7 +154,7 @@ nav > div:hover > ul{
     margin: 5px 20px;
 }
 .side-sub-dropdown-chapters{
-    height: 20px;
+    height: 25px;
     overflow: hidden;
     width: 100%;
 }
