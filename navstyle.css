@@ -65,6 +65,13 @@ nav > div:hover{
     transition: all 0.3s ease-in-out;
     color: var(--nav-text-hover);
 }
+nav > div a{
+    color: var(--nav-text-faded);
+}
+nav > div > a:hover{
+    transition: all 0.3s ease-in-out;
+    color: var(--nav-text-hover);
+}
 nav > div > ul{
     font-weight: lighter;
     position: absolute;
@@ -88,11 +95,18 @@ nav > div li:hover{
     color: var(--sub-nav-text-hover);
     font-size: 15px;
 }
-nav > div:hover > ul{
+.nav-hover-click{
     transition: all 0.5s ease-in-out;
     transform: translate(70px,0px);
     display: block;
 }
+.disable-select{
+    -webkit-user-select: none;  
+    -moz-user-select: none;    
+    -ms-user-select: none;      
+    user-select: none;
+}
+
 
 
 /* NAV DROP-DOWN ON SMALL SCREEN*/
@@ -165,7 +179,7 @@ nav > div:hover > ul{
 
 /* RESPONSIVENESS FOR NAVIGATION BANDS */
 
-@media screen and (max-width:750px){
+@media screen and (max-width:768px){
     #nav-head{
         width: 100vw;
         justify-content: center;

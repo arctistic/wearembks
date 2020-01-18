@@ -12,19 +12,17 @@ $(document).ready(() => {
         let lists = document.querySelectorAll(".nav-dropdown li");
         listClicked = false;
         lists.forEach(function(list){
-            if(list == event.target){
-                listClicked = true;
+            if(list == event.target){   //Checking if any of the list
+                listClicked = true;     //inside the dropdown is clicked
             }
         });
         let downArrows = document.querySelectorAll(".down-arrow");
         let downArrowClicked = false;
         downArrows.forEach(function(downArrow){
-            if(downArrow == event.target){
-                downArrowClicked = true;
-                console.log(downArrowClicked);
+            if(downArrow == event.target){ //Checking if anyone of the
+                downArrowClicked = true;   //arrow is clicked in the dorpdown
             }
         });
-
         if(event.target != dropdown
             && event.target.parentNode != dropdown
             && !listClicked
@@ -32,11 +30,9 @@ $(document).ready(() => {
             && event.target != $(".fa-chevron-down")[0]
             && !downArrowClicked
             && $(".fa-chevron-left")[0] != event.target){
-                console.log(event.target);
                 $(".nav-dropdown").removeClass("toggle-display");
             $(".dropdown-sandwich").removeClass("rotate-sandwich");
         }
-        console.log(event.target);
     });
     
     
@@ -70,6 +66,21 @@ $(document).ready(() => {
             $("nav").css('position','relative');
         }
     });
+
+
+    //FOR BIG SCREEN TABLETS, NAVIDATION BAR ON CLICK
+    //Removing 'hover' pseudoclass and handling mouseover, mouseout and click event
+    $("nav > div").on({
+        click: function(event){
+            $(this).children("ul").toggleClass("nav-hover-click");
+        },
+        mouseover: function(){
+            $(this).children("ul").addClass("nav-hover-click");
+        },
+        mouseout: function(){
+            $(this).children("ul").removeClass("nav-hover-click");
+        }
+    })
 
 
 });

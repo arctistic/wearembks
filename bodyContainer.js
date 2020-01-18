@@ -13,7 +13,4 @@ $(document).ready(() => {
             $(this).children("i").toggleClass("acc-arrow-rotate");
         }
     });
-
-
-
 });

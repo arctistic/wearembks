@@ -1,0 +1,24 @@
+USAGE OF CARDS
+Description: These cards take up the whole width when alone.
+    Where there are two or more card then fill up the width evenly.
+    In the mobile view, with max-width of 762 pixels, these cards
+    appear in a column since there container's flex-direction is
+    set to column.
+1. First have a container with class 'card container'
+2. Make the card using <div> tags with class 'card'
+3. In <h2> tags have the heading with class 'card-h2'
+4. Can have <h3> tags as sub-headings with class 'card-h3'
+5. Use <div> with class 'card-p'
+
+
+USAGE OF ACCORDAINS
+Description: These are small heading-panel pairs.
+    These are written inside class 'card' <div> tags
+    had just have an additional <div> tag appearing-disappearing
+    functionality on click. Only one panel is visible at a time.
+1. First have a container with class 'card container'
+2. Make the card using <div> tags with class 'card'
+3. In <h2> tags have the heading with class 'card-h2'
+4. For the hiding panel use <div> tags with class 'acc-p'
+5. Inside the <div class="acc-p"> include <div> with class
+    'acc-p-content'. Here you can fill what you desire.

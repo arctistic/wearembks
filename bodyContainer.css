@@ -9,17 +9,7 @@ body{
     display: flex;
     justify-content: space-around;
 }
-#main-container{
-    width: 70%;
-    /* border: 1px solid black; */
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-#aside-container{
-    width: 25%;
-    border: 1px solid black;
-}
+
 
 /* INFO HEADER */
 #info-header{
@@ -28,7 +18,12 @@ body{
     width: 100%;
 }
 
-/* NORMAL CARD */
+/* NORMAL CARD AND acc-p(Accordian para) */
+.card-container{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
 .card{
     display: flex;
     flex-direction: column;
@@ -40,24 +35,56 @@ body{
     margin: 0px 0px;
     background-color: white;
 }
-.card h2{
+.card-h2{
     border-left: 5px solid orange;
     padding-left: 10px;
     cursor: pointer;
 }
-.card h3{
-    border-left: 2px solid orange;
+.card-h3{
+    color: rgba(0, 0, 0, 0.755);
+    font-size: 15px;
+    font-weight: 400;
     padding-left: 10px;
     cursor: pointer;
     margin-left: 20px;
     margin-bottom: 10px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
-.card h3:hover{
+.card-h3 > i{
+    color: orange;
+}
+.card-h3:hover{
     transition: all 0.2s ease-in-out;
     border-left: 4px solid orange;
+    color: black;
 }
-.card p{
+.card-p{
     margin: 10px 0px;
+}
+.card-p-content{
+    padding: 10px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* accordian paragraph -  grey collapsable */
+.acc-p{
+    box-sizing: border-box;
+    background-color: var(--grey-bg);
+    height: 0px;
+    overflow: hidden;
+    transition: all 0.3s ease-in-out;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+.acc-p-content{
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 /* MBKS LOGO */
@@ -70,9 +97,7 @@ body{
     max-width: 200px;
 }
 
-
-
-/* FOR THE ACCORDIAN*/
+/* FOR THE ACCORDIAN IN HOME PAGE*/
 .accordian{
     box-sizing: border-box;
     width: 100%;
@@ -234,8 +259,55 @@ body{
     margin: 10px;
 }
 
+/* GENERALCONTAINER FOR COLLECTION OF IMAGES */
+.img-gallery{
+    margin: 10px 0px;
+    /* background-color: red; */
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.img-caption-box{
+    box-sizing: border-box;
+    width: 285px;
+    margin: 20px 0px;
+    border: 20px solid white;
+    background-color: white;
+}
+.img-caption-box img{
+    width: 100%;
+    margin: 0px;
+}
+.img-caption-box p{
+    margin: -5px 0px;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    border-top: none;
+}
+
+/* PAGE HEADING FORMAT (other than homepage)*/
+.page-head h1{
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    font-weight: lighter;
+    color: white;
+    background: linear-gradient(90deg,rgb(252, 198, 99),rgb(252, 84, 84));
+    padding: 60px;
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.149);
+    font-size: 60px;
+}
+.newspaper-cut{
+    width: 50%;
+    margin: auto;
+}
+
+
+
+
 /* RESPONSIVENESS */
-@media screen and (max-width:750px){
+@media screen and (max-width:768px){
 
     /* Three card at the beginning */
     #info-header{
@@ -266,7 +338,10 @@ body{
         display: flex;
         flex-direction: column;
     }
-
+    .card-container{
+        display: flex;
+        flex-direction: column;
+    }
     .video-card embed{
         height: 250px;
     }
@@ -274,5 +349,23 @@ body{
         display: flex;
         flex-direction: column;
     }
-
+    .acc-p-content{
+        padding: 10px;
+        justify-content: center;
+        align-items: center;
+    }
+    .img-caption-box{
+        box-sizing: border-box;
+        width: 100%;
+        border: 5px solid white;
+        background-color: white;
+    }
+    .page-head h1{
+        font-size: 30px;
+        padding: 20px 30px;
+        text-align: end;
+    }
+    .newspaper-cut{
+        width: auto;
+    }
 }
