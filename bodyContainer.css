@@ -1,5 +1,5 @@
 :root{
-    --grey-bg: rgba(243, 240, 240, 0.816);
+    --grey-bg: rgb(250, 246, 246);
 }
 body{
     background-color: var(--grey-bg);
@@ -21,7 +21,7 @@ body{
 /* NORMAL CARD AND acc-p(Accordian para) */
 .card-container{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     width: 100%;
 }
 .card{
@@ -29,6 +29,7 @@ body{
     flex-direction: column;
     box-sizing: border-box;
     width: 100%;
+    margin: auto;
     padding: 20px;
     transition: all 1s ease-in-out;
     border: 1px solid lightgray;
@@ -70,22 +71,40 @@ body{
 }
 
 /* accordian paragraph -  grey collapsable */
+.acc-animate{
+    max-width: 1024px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
 .acc-p{
     box-sizing: border-box;
     background-color: var(--grey-bg);
     height: 0px;
     overflow: hidden;
     transition: all 0.3s ease-in-out;
-    margin-bottom: 10px;
+    margin-bottom: 50px;
     margin-top: 5px;
+    border-radius: 20px;
 }
 .acc-p-content{
-    padding: 50px;
+    padding: 10px
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
+
+.acc-p-content > p{
+    box-sizing: content-box;
+    padding: 0px 30px 5px 30px;
+    padding-top: 10px;
+    text-align: justify;
+    margin: auto;
+    margin-top: 25px;
+}
+
 
 /* MBKS LOGO */
 #mbks-logo{
@@ -272,20 +291,23 @@ body{
 .img-caption-box{
     box-sizing: border-box;
     width: 285px;
-    margin: 20px 0px;
-    border: 20px solid white;
-    background-color: white;
+    margin: 20px 10px;
+    background-color: transparent;
 }
 .img-caption-box img{
     width: 100%;
     margin: 0px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
 }
 .img-caption-box p{
-    margin: -5px 0px;
-    width: 100%;
     box-sizing: border-box;
-    padding: 10px;
-    border-top: none;
+    padding: 10px 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: white;
+    margin-top: -5px;
+    box-shadow:  0 6px 4px -4px rgba(128, 127, 127, 0.7);
 }
 
 /* PAGE HEADING FORMAT (other than homepage)*/
@@ -357,8 +379,6 @@ body{
     .img-caption-box{
         box-sizing: border-box;
         width: 100%;
-        border: 5px solid white;
-        background-color: white;
     }
     .page-head h1{
         font-size: 30px;
