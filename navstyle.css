@@ -97,6 +97,7 @@ nav > div li:hover{
     font-size: 15px;
 }
 .nav-hover-click{
+    z-index: 5;
     transition: all 0.5s ease-in-out;
     transform: translate(70px,0px);
     display: block;
