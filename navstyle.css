@@ -40,6 +40,7 @@ a{
 
 /* MAIN NAV BAR */
 nav{
+    z-index: 1;
     font-size: 14px;
     margin: 0px;
     height: 40px;
@@ -111,10 +112,10 @@ nav > div li:hover{
 
 /* NAV DROP-DOWN ON SMALL SCREEN*/
 .dropdown-sandwich{
+    z-index: 1;
     font-size: 17px;
     background-color: var(--primary-color);
     color: white;
-    position: fixed;
     left: 10px;
     margin: 10px 2px;
     display: none;
@@ -124,13 +125,15 @@ nav > div li:hover{
     width: 35px;
     border-radius: 50%;
     transition: all 0.3s ease-in-out;
-    z-index: 1;
+    position: fixed;
 }
 .rotate-sandwich{
+    z-index: 1;
     transition: all 0.3s ease-in-out;
     transform: rotate(90deg);
 }
 .nav-dropdown{
+    z-index: 1;
     position: fixed;
     display: flex;
     width: 100vw;
@@ -145,6 +148,7 @@ nav > div li:hover{
 .toggle-display{
     border: 1px solid lightgrey;
     height: 100vh;
+    z-index: 5;
 }
 .nav-dropdown a{
     color: black;
@@ -188,7 +192,7 @@ nav > div li:hover{
 
 @media screen and (max-width:768px){
     #nav-head{
-        width: 100vw;
+        width: 100%;
         justify-content: center;
     }
     #nav-head-title{
@@ -199,6 +203,7 @@ nav > div li:hover{
     }
     .dropdown-sandwich{
         display: flex;
+        z-index: 5;
     }
     .toggle-display{
         width: 40%;

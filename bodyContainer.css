@@ -1,5 +1,5 @@
 :root{
-    --grey-bg: rgb(250, 246, 246);
+    --grey-bg: rgba(191, 171, 164, 0.299);
 }
 body{
     background-color: var(--grey-bg);
