@@ -12,6 +12,7 @@ $(document).ready( () => {
             $(this).next().height(0);
         }
     });
+
     $(window).on("resize", function(){
         accPs = document.querySelectorAll(".acc-p");
         accPs.forEach(function(accP){
