@@ -94,7 +94,6 @@
     font-size: 0.9em;
     border-bottom-right-radius: 5px;
     border-bottom-left-radius: 5px;
-    
 }
 
 .content-head-container{
@@ -120,6 +119,64 @@
     padding: 0px 20px;
 }
 
+
+
+
+/* THIN LIST VIEW FOR STORIES */
+.post-list{
+    margin: 10px 0px;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    width: 700px;
+    background-color: white;
+    box-sizing: border-box;
+    padding: 15px;
+    font-size: 0.9em;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+.post-list-head-image-container{
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    border-radius: 5px;
+}
+.post-list-head-image{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.post-list-content-head-container{
+    width: 500px;
+    text-align: justify;
+}
+.post-list-content-title{
+    padding: 0px 15px;
+    font-size: 1em;
+}
+.post-list-content-date{
+    margin: 20px 0px;
+    padding-right: 15px;
+    text-align: end;
+    font-size: 0.9em;
+}
+.full-post-link{
+    padding-left: 15px;
+    text-align: center;
+    font-size: 0.9em;
+}
+.full-post-link > a{
+    background-color: orange;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: white;
+}
+
+
+
 @media screen and (max-width:700px){
     .post{
         width: 95vw;
@@ -130,8 +187,19 @@
     .img-container img{
         width: 95vw;
     }
-    
-
+    .post-list{
+        width: 95vw;
+    }
+    .post-list-head-image-container{
+        width: 30%;
+    }
+    .post-list-content-head-container{
+        width: 60%;
+    }
+    .post-list-content-title{
+        font-size: 0.9em;
+        overflow-wrap: break-word;
+    }
 }
 
 
