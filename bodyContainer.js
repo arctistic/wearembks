@@ -15,7 +15,9 @@ $(document).ready(() => {
     });
 
     $('#donate-btn').on('click', function(){
-        $('#acc-details').css('display', 'flex');
+        $('#acc-details').height(100);
+        $('#acc-details').width(200);
+        $('#acc-details').css('padding', '10px 10px');
         $(this).remove();
     })
 
