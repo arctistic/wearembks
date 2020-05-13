@@ -13,4 +13,13 @@ $(document).ready(() => {
             $(this).children("i").toggleClass("acc-arrow-rotate");
         }
     });
+
+    $('#donate-btn').on('click', function(){
+        $('#acc-details').css('display', 'flex');
+        $(this).remove();
+    })
+
+
+
+
 });
