@@ -1,0 +1,41 @@
+##	Font change:
+		1. So there is a change in all css files
+		2. Change in head of all HTML files. Need to provide link:
+			<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400&display=swap" rel="stylesheet">
+
+##	New header images
+		1. In the home page, the main image slider, there are new pictures. They are stored in folder 'header images'
+		2. And thus there are changes in the sliding animation also, which is file headerImageAnimation.js
+
+##	Body background:
+		1. The project, about, stories, stories list has a background image to the body. The image used as background in at the root/main folder named 'body-background.png'
+
+##	About page is totally different: (Static for now)
+		1. New html file -> about.html
+		2. New CSS -> about-style.css
+		3. So there will be a new tab in nav bar (desktop and mobile)
+		4. This about.html file takes images from FOLDER "member-images", there are new photos inside of it
+
+##	The body container css file also has changes:
+		1. Now there is not light grey background both left and right
+		2. And a more lighter, minimalistic feel. I am loving this.
+
+
+##	So, index.html has a lot of minor static text changes. Like aim, mission, vision, comma erros, welcome tab, address, email etc
+		1. I think you should copy/embed your template code on this new index.html file.
+		2. The scource location of the mbks logo, 'final logo has changed' and it now at the root/main directory and NOT in header-images
+
+
+##	The images in stories were being cut, so therefore I have made changes in the stories-style.css also
+
+##	chapters have been created, using the same bodyContainer.css file. Just need to place the static html file. The images for the it are stored in folder 'Chapters-images'
+		1. There are two chapters for not chapters-kolkata.html and chapters-sikkim.html
+
+##	Each project's part is an accordian right. But it was not visible properly so I have added a small down arrow in the collapsed accordians. This arrow has an annimation, i.e. it points UP when the accordian is expanded and DOWN when collapsed. Code for this animation is present in an already existing file called, acc-animation.js. So there are changes there as well.
+
+##	A major change in the side navigation tab for mobile view. The list is a lot clearer now. So there were changes in navstyle.css also.
+	Refer to this new nav-bar. Changes are html also. Initiall <a> was inside <li>, now <li> is inside <a>. Important necessary change.
+
+
+#####	!IMPORTANT: The 'go to file' for REFERENCE regarding nav bar(both mobile, desktop view) and for Projects page and their parts will be MEFAI.html file.
+_________________________________________________________________________________________________________________________________________________________________________________________
