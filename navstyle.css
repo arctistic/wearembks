@@ -84,6 +84,7 @@ nav > div > ul{
 }
 nav > div li{
     margin: 10px 15px;
+    color: var(--sub-nav-text-faded);
 }
 nav > div li a{
     color: var(--sub-nav-text-faded);
