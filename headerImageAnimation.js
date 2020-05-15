@@ -1,13 +1,13 @@
 $(document).ready( () => {
 
-    let images = ["image1.jpg", "image2.jpg", "image3.jpg", "image4.jpg", "image5.jpg"];
+    let images = ["image1.jpg", "image2.jpg", "image3.jpg", "image4.jpg", "image5.jpg", "image6.jpg", "image7.jpg"];
     let curImg = 0;
     let interval = setInterval(() => {
         $("#header-image").css({
             backgroundImage: "url(header-images/"+images[curImg]+")"
         });
         curImg = (curImg + 1) % (images.length);
-    }, 3000);
+    }, 5000);
 
     
     if($(window).width() > 768){
