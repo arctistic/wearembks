@@ -11,7 +11,7 @@
     list-style: none;
     margin: 0px;
     padding: 0px;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: 'Quicksand', sans-serif;
 }
 a{
     text-decoration: none;
@@ -24,7 +24,6 @@ a{
     width: 100%;
     display: flex;
     font-size: 11px;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI',             Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica        Neue', sans-serif;
     justify-content: space-between;
     align-items: center;
     cursor: default;
@@ -138,7 +137,7 @@ nav > div li:hover{
     position: fixed;
     display: flex;
     width: 100vw;
-    background-color: var(--sub-nav-bg-color);
+    background-color: rgba(110, 110, 110, 0.598);
     overflow: scroll;
     height: 0px;
     width: 0px;
@@ -147,42 +146,50 @@ nav > div li:hover{
     justify-content: flex-end;
 }
 .toggle-display{
-    border: 1px solid lightgrey;
     height: 100vh;
     z-index: 5;
+    backdrop-filter: blur(2px);
 }
 .nav-dropdown a{
-    color: black;
+    color: rgb(255, 216, 143);
 }
-.nav-dropdown ul{
-    width: 80%;
+.nav-dropdown > ul{
+    width: 100%;
+    padding-left: 60px;
 }
-.nav-dropdown > ul > li{
+.nav-dropdown > ul li{
+    font-weight: bold;
+    color: rgb(255, 216, 143);
     font-size: 20px;
-    margin: 10px;
-    padding-left: 10px;
-    width: 80%;
+    width: 100%;
+    padding: 20px 10px 10px 10px;
+    border-bottom: 1px solid white;
 }
-.nav-dropdown > ul > li:hover{
-    border-left: 2px solid black;
+.nav-dropdown > ul li:hover{
+    background-color: rgba(41, 41, 41, 0.272);
 }
-.side-sub-dropdown-project{
+
+
+.nav-dropdown::-webkit-scrollbar {
+    display: none;
+  }
+  .nav-dropdown {
+    -ms-overflow-style: none;
+}
+
+.side-sub-dropdown-project, .side-sub-dropdown-chapters{
     height: 25px;
     overflow: hidden;
     width: 100%;
+    cursor: pointer;
 }
 .nav-sub-dropdown > ul{
-    width: 100%;
+    width: 70%;
     list-style-type: square;
 }
 
 .nav-sub-dropdown li{
     margin: 5px 20px;
-}
-.side-sub-dropdown-chapters{
-    height: 25px;
-    overflow: hidden;
-    width: 100%;
 }
 .nav-sub-dropdown-toggle{
     height: auto;
@@ -207,12 +214,7 @@ nav > div li:hover{
         z-index: 5;
     }
     .toggle-display{
-        width: 40%;
-    }
-
-}
-@media screen and (max-width:500px){
-    .toggle-display{
         width: 80%;
     }
+
 }

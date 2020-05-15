@@ -1,6 +1,9 @@
 :root{
     --border-color: lightgrey;
 }
+*{
+    font-family: 'Quicksand', sans-serif;
+}
 #header-image-container{
     /* border-bottom: 1px solid var(--border-color); */
     background-color: rgb(238, 238, 237);
