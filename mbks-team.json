@@ -1,0 +1,83 @@
+[
+  {
+    "trustees":[
+        {
+            "name": "Rahul Amulya Pradhan",
+            "photo": "https://arctistic.github.io/wearembks/member-images/trust/rahul.jpeg",
+            "post": "President",
+            "caption": "Mukh Bandh Kaam Suru is a Public Charitable Trust registered under the Indian Trust Act 1960 in Darjeeling, India. We are dedicated towards bringing back the lost essence of Darjeeling Hills.",
+            "facebook": "asd",
+            "instagram": "as",
+            "linkedIn": "asd"
+        },
+        {
+          "name": "Akhil Ratna Chettri",
+          "photo": "https://arctistic.github.io/wearembks/member-images/trust/rahul.jpeg",
+          "post": "Vice President",
+          "caption": "Mukh Bandh Kaam Suru is a Public Charitable Trust registered under the Indian Trust Act 1960 in Darjeeling, India. We are dedicated towards bringing back the lost essence of Darjeeling Hills.",
+          "facebook": "asd",
+          "instagram": "as",
+          "linkedIn": "asd"
+        },
+        {
+          "name": "Laxmi Chettri",
+          "photo": "https://arctistic.github.io/wearembks/member-images/trust/rahul.jpeg",
+          "post": "General Secretary",
+          "caption": "Mukh Bandh Kaam Suru is a Public Charitable Trust registered under the Indian Trust Act 1960 in Darjeeling, India. We are dedicated towards bringing back the lost essence of Darjeeling Hills.",
+          "facebook": "asd",
+          "instagram": "as",
+          "linkedIn": "asd"
+        },
+        {
+          "name": "Samden Dukpa",
+          "photo": "https://arctistic.github.io/wearembks/member-images/trust/rahul.jpeg",
+          "post": "Finance Secretary",
+          "caption": "Mukh Bandh Kaam Suru is a Public Charitable Trust registered under the Indian Trust Act 1960 in Darjeeling, India. We are dedicated towards bringing back the lost essence of Darjeeling Hills.",
+          "facebook": "asd",
+          "instagram": "as",
+          "linkedIn": "asd"
+        },
+        {
+          "name": "Rishi Tamang",
+          "photo": "https://arctistic.github.io/wearembks/member-images/trust/rahul.jpeg",
+          "post": "Director Red Phoenix Films",
+          "caption": "Mukh Bandh Kaam Suru is a Public Charitable Trust registered under the Indian Trust Act 1960 in Darjeeling, India. We are dedicated towards bringing back the lost essence of Darjeeling Hills.",
+          "facebook": "asd",
+          "instagram": "as",
+          "linkedIn": "asd"
+        }
+      ],
+    "members": [
+      {
+        "first_name": "Prakash",
+        "last_name": "Thami",
+        "photo_link": "https://arctistic.github.io/wearembks/member-images/trust/rahul.jpeg"
+      },
+      {
+        "first_name": "Prayash",
+        "last_name": "Chettri",
+        "photo_link": "https://arctistic.github.io/wearembks/member-images/trust/rahul.jpeg"
+      },
+      {
+        "first_name": "Prakash",
+        "last_name": "Thami",
+        "photo_link": "https://arctistic.github.io/wearembks/member-images/trust/rahul.jpeg"
+      },
+      {
+        "first_name": "Prayash",
+        "last_name": "Chettri",
+        "photo_link": "https://arctistic.github.io/wearembks/member-images/trust/rahul.jpeg"
+      },
+      {
+        "first_name": "Prakash",
+        "last_name": "Thami",
+        "photo_link": "https://arctistic.github.io/wearembks/member-images/trust/rahul.jpeg"
+      },
+      {
+        "first_name": "Prayash",
+        "last_name": "Chettri",
+        "photo_link": "https://arctistic.github.io/wearembks/member-images/trust/rahul.jpeg"
+      }
+    ]
+  }
+]
