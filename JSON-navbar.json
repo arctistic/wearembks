@@ -1,0 +1,37 @@
+[
+  {
+    "project_names": [
+      {
+        "project_id": "1",
+        "project_name": "MBKS Education For All Initiative",
+        "project_short_form": "MEFAI"
+      },
+      {
+        "project_id": "2",
+        "project_name": "Children Healthcare Initiative for Lifelong Development",
+        "project_short_form": "CHILD"
+      },
+      {
+        "project_id": "3",
+        "project_name": "Volunteers Into Rural Upliftment Services",
+        "project_short_form": "VIRUS"
+      },
+      {
+        "project_id": "4",
+        "project_name": "Donation Point",
+        "project_short_form": "DoPo"
+      },
+      {
+        "project_id": "5",
+        "project_name": "KOSELI",
+        "project_short_form": ""
+      },
+      {
+        "project_id": "6",
+        "project_name": "PHOENIX",
+        "project_short_form": ""
+      }
+    ],
+    "mbks_logo": "https://drive.google.com/uc?export=view&id=1SXWZs6abokhLLKAt0ZtPFBZzq_6W63bv"
+  }
+]

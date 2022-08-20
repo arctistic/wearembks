@@ -1,0 +1,61 @@
+[
+  {
+    "landing_images": {
+      "image1": "https://drive.google.com/uc?export=view&id=1pvCemTJCikba13H_wKzYLeD4S-ac-fdL",
+      "image2": "https://drive.google.com/uc?export=view&id=1JRF5Eb45X_XMSpWgMnHXWJtHvUC6C-pj",
+      "image3": "https://drive.google.com/uc?export=view&id=1Va0k-klIRloiAKep3VKiEPthQdJcJcYa",
+      "image4": "https://drive.google.com/uc?export=view&id=1JaB0ZySB5tAWhp7GVpWojqTHwoQWD0yZ"
+    },
+
+    "donate_background": "https://arctistic.github.io/wearembks/header-images/donate-bg.jpg",
+
+    "mbks_logo_gradient": "https://drive.google.com/uc?export=view&id=1SXWZs6abokhLLKAt0ZtPFBZzq_6W63bv",
+
+    "mbks_logo_unicolor": "https://drive.google.com/uc?export=view&id=1SXWZs6abokhLLKAt0ZtPFBZzq_6W63bv",
+
+    "contact_section_background": "",
+
+    "home_sections":{
+      "title1": "Bringing back the lost essence of the Himalayas",
+      "caption1": "Mukh Bandh Kaam Suru (MBKS) Trust is Non Profit Organisation working since 2017 in the Eastern Himalayas. Founded by a group of passionate youths, we aim to bring back the lost essence of the Hills through concerted effort on the upliftment of the most vulnerable groups in all social sectors.",
+      "title2": "Our Vision",
+      "caption2": "Sustainable and holistic development of Hill communities with pathways to opportunities.",
+      "title3": "Our Mission",
+      "caption3": "Empowerment of target groups with comprehensive focus on education, healthcare and livelihood.",
+      "title4": "Sustainable Dev Goals",
+      "caption4": "No Poverty, Good Health & Well-Being, Quality Education, Gender Equality, Decent Work and Economic Growth and Climate Action."
+    },
+
+    "strip_sections" :{
+      "title1": "16 lakh+",
+      "caption1": "worth of food distributed",
+      "title2": "60 lakh+",
+      "caption2": "received in donations",
+      "title3": "100+",
+      "caption3": "students under scholarship",
+      "title4": "10+",
+      "caption4": "children under medical care",
+      "title5":"1000+",
+      "caption5": "volunteers and counting",
+      "title6": "4000+",
+      "caption6": "families affected"
+    },
+
+    "youtube_video_id": "RU3jcvwaM9Q",
+
+    "contact_section": {
+      "mbks_email": "mbkstrust@gmail.com",
+      "mbks_contact_1": "+91 - 6294943062",
+      "mbks_contact_2": "+91 - 8016506615",
+      "mbks_office_address": [
+        "108 Pradhan Cottage",
+        "Bloomfield, Dali,",
+        "Darjeeling, West Bengal,",
+        "India - 734101"
+      ],
+      "background_image": "https://drive.google.com/uc?export=view&id=1frLHmoveGlwjE14OnPcif7SwQvZjrizm"
+    },
+
+    "how_to_use": "https://drive.google.com/uc?export=view&id= .. <<id here>> .. from google drive"
+  }
+]
