@@ -1,10 +1,10 @@
 [
   {
     "landing_images": {
-      "image1": "https://drive.google.com/uc?export=view&id=1pvCemTJCikba13H_wKzYLeD4S-ac-fdL",
-      "image2": "https://drive.google.com/uc?export=view&id=1JRF5Eb45X_XMSpWgMnHXWJtHvUC6C-pj",
-      "image3": "https://drive.google.com/uc?export=view&id=1Va0k-klIRloiAKep3VKiEPthQdJcJcYa",
-      "image4": "https://drive.google.com/uc?export=view&id=1JaB0ZySB5tAWhp7GVpWojqTHwoQWD0yZ"
+      "image1": "https://raw.githubusercontent.com/arctistic/mbksdotcomphotos/main/Home/Landing%20images/image1.jpg",
+      "image2": "https://raw.githubusercontent.com/arctistic/mbksdotcomphotos/main/Home/Landing%20images/image2.jpg",
+      "image3": "https://github.com/arctistic/mbksdotcomphotos/blob/main/Home/Landing%20images/image3.jpg?raw=true",
+      "image4": "https://github.com/arctistic/mbksdotcomphotos/blob/main/Home/Landing%20images/image4.jpg"
     },
 
     "donate_background": "https://arctistic.github.io/wearembks/header-images/donate-bg.jpg",
