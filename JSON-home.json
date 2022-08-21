@@ -1,10 +1,10 @@
 [
   {
     "landing_images": {
-      "image1": "https://raw.githubusercontent.com/arctistic/mbksdotcomphotos/main/Home/Landing%20images/image1.jpg",
-      "image2": "https://raw.githubusercontent.com/arctistic/mbksdotcomphotos/main/Home/Landing%20images/image2.jpg",
+      "image1": "https://github.com/arctistic/mbksdotcomphotos/blob/main/Home/Landing%20images/image1.jpg?raw=true",
+      "image2": "https://github.com/arctistic/mbksdotcomphotos/blob/main/Home/Landing%20images/image2.jpg?raw=true",
       "image3": "https://github.com/arctistic/mbksdotcomphotos/blob/main/Home/Landing%20images/image3.jpg?raw=true",
-      "image4": "https://github.com/arctistic/mbksdotcomphotos/blob/main/Home/Landing%20images/image4.jpg"
+      "image4": "https://github.com/arctistic/mbksdotcomphotos/blob/main/Home/Landing%20images/image4.jpg?raw=true"
     },
 
     "donate_background": "https://arctistic.github.io/wearembks/header-images/donate-bg.jpg",
@@ -16,9 +16,9 @@
       "IFSC Code: SBIN0000063"
     ],
 
-    "mbks_logo_gradient": "https://drive.google.com/uc?export=view&id=1SXWZs6abokhLLKAt0ZtPFBZzq_6W63bv",
+    "mbks_logo_gradient": "https://github.com/arctistic/mbksdotcomphotos/blob/main/Home/Other%20assets/mbkslogo.png?raw=true",
 
-    "mbks_logo_unicolor": "https://drive.google.com/uc?export=view&id=1SXWZs6abokhLLKAt0ZtPFBZzq_6W63bv",
+    "mbks_logo_unicolor": "https://github.com/arctistic/mbksdotcomphotos/blob/main/Home/Other%20assets/mbkslogo.png?raw=true",
 
     "contact_section_background": "",
 
@@ -60,7 +60,7 @@
         "Darjeeling, West Bengal,",
         "India - 734101"
       ],
-      "background_image": "https://drive.google.com/uc?export=view&id=1frLHmoveGlwjE14OnPcif7SwQvZjrizm"
+      "background_image": "https://github.com/arctistic/mbksdotcomphotos/blob/main/Home/Other%20assets/contact-section-background.jpg?raw=true"
     },
 
     "how_to_use": "https://drive.google.com/uc?export=view&id= .. <<id here>> .. from google drive"
