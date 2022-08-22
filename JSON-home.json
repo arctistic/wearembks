@@ -13,16 +13,22 @@
       "Mukh Bandh Kaam Suru Trust",
       "State Bank of India",
       "A/c No. 37715203916",
-      "IFSC Code: SBIN0000063"
+      "IFSC Code: SBIN0000063",
+      "Google Pay: +91 62949 43062",
+      "UPI ID: 6294943062@okbizaxis"
     ],
+
+    "bank_qr_code": "https://github.com/arctistic/mbksdotcomphotos/blob/main/Home/Other%20assets/Bank%20QR%20code.jpg?raw=true",
 
     "mbks_logo_gradient": "https://github.com/arctistic/mbksdotcomphotos/blob/main/Home/Other%20assets/mbkslogo.png?raw=true",
 
     "mbks_logo_unicolor": "https://github.com/arctistic/mbksdotcomphotos/blob/main/Home/Other%20assets/mbkslogo.png?raw=true",
 
+    "mbks_logo_with_glow": "",
+
     "contact_section_background": "",
 
-    "home_sections":{
+    "home_sections": {
       "title1": "Bringing back the lost essence of the Himalayas",
       "caption1": "Mukh Bandh Kaam Suru (MBKS) Trust is Non Profit Organisation working since 2017 in the Eastern Himalayas. Founded by a group of passionate youths, we aim to bring back the lost essence of the Hills through concerted effort on the upliftment of the most vulnerable groups in all social sectors.",
       "title2": "Our Vision",
@@ -33,7 +39,7 @@
       "caption4": "No Poverty, Good Health & Well-Being, Quality Education, Gender Equality, Decent Work and Economic Growth and Climate Action."
     },
 
-    "strip_sections" :{
+    "strip_sections": {
       "title1": "16 lakh+",
       "caption1": "worth of food distributed",
       "title2": "60 lakh+",
@@ -42,7 +48,7 @@
       "caption3": "students under scholarship",
       "title4": "10+",
       "caption4": "children under medical care",
-      "title5":"1000+",
+      "title5": "1000+",
       "caption5": "volunteers and counting",
       "title6": "4000+",
       "caption6": "families affected"
